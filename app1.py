@@ -1,4 +1,4 @@
-import json
+import json #importing json
 from difflib import get_close_matches
 data = json.load(open("data.json"))
 def translate(w):
